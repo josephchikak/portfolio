@@ -1,0 +1,101 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+
+.content{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.landing{
+    position: relative;
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMages/layered-waves-haikei.svg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.songs{
+    position: absolute;
+    top:10%;
+    width: fit-content;
+    height: 70%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+
+}
+
+
+
+
+#footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5vh;
+    background-color: rgba(171, 171, 171,0.1);
+}
+
+.social{
+    width:30px;
+    padding: 5px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.song{
+    height: fit-content;
+    width: fit-content;
+    width: 50%;
+    transition: all 1s ease-in-out;
+    position: relative;
+    margin:2em;
+}
+
+.song:hover{
+    transform: scale(1.1);
+    box-shadow: 5.6px 12.5px 10px rgba(0, 0, 0, 0.102),
+    45px 100px 80px rgba(0, 0, 0, 0.24);
+
+}
+
+.songLink{
+    /* position: absolute; */
+    bottom: 0;
+    height: 2.5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.linkIcon{
+    height: 30px;
+    width: auto;
+    padding: 2px;
+  
+}
+
+.songLink{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.songTitle:hover{
+        display: none;
+}

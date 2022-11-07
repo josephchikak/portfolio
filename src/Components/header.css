@@ -1,0 +1,246 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300&display=swap');
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+#home{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(219, 217, 217, 0.5);
+    /* background-position: center center; */
+    /* background-image: url("img_parallax.jpg"); */
+
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.navbars{
+   position: sticky;
+   top: 0;
+   z-index: 999;
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+    /* top: 0%; */
+    color:rgb(255, 255, 255);
+    background-color:rgba(0, 0, 0, 0.9);
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.navigation{
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.navs{
+    cursor: pointer;
+    padding: 1em;
+    display: flex;
+}
+
+.hero{
+    height: 100vh;
+    background-position: 0%;
+    display: grid; 
+    grid-template-columns: 1.5fr 2fr 1.5fr;
+    place-content: center;   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./IMages/IMG_6966.JPG");
+
+    /* Set a specific height */
+    min-height: 500px;
+}
+.icons{
+    background-color: white;
+    height: 3em;
+    width: 3em;
+    border-radius: 1em;
+    z-index: -1;
+}
+
+
+
+.category{
+    display: grid;
+    place-content: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+  
+}
+
+#webdev, #music{
+    background-color: rgba(0, 0, 0,0.5);
+    position: absolute;
+    
+}
+
+#webdev{
+    top: 50%;
+    left: 25%;
+}
+#music{
+    top: 50%;
+    right: 25%;
+}
+.category > div {
+    display: grid;
+    place-content: center;    
+}
+
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 1em;
+    height: 500px;
+    text-align:left;
+    background-color: rgba(0, 0, 0, 1);
+    animation: intro 1000ms ease-in-out 500ms;
+    z-index: 10;
+    border-radius: 1em;
+    
+}
+
+#text{
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+    place-self: center;
+    width: 300px;
+    height: 300px;
+   
+}
+.introduction{
+    top: 0;
+    left: 50;
+    padding-left: 10px;
+    font-family: 'Laila', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+.navs:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+
+}
+
+.active{
+    cursor: pointer;
+    padding: 1em;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+
+
+.mobileNavigation{
+cursor: pointer;
+position: absolute;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+right: 0.5%;
+}
+
+.mobileNav{
+    margin:3px;
+    height: 3px;
+    width: 35px;
+    background-color: black;
+}
+
+.nextPage {
+    display: grid;
+    place-content: center;
+    min-height: 30vh;
+}
+
+
+.nextPage > svg{
+    background-color: rgb(192, 189, 189);
+    border-radius: 50%;
+    cursor: pointer;
+    height: 35px;
+    width: 3px;
+    padding: 5px;
+}
+
+
+@media (max-width: 520px) {
+    
+    .navs, .img{
+        display: none;
+    }
+    
+    .header{
+        height: 7vh;
+    }
+    .mobileNav{
+       background-color: white;
+       /* z-index: 999; */
+    }
+    .introduction{
+        color: rgb(0, 0, 0);
+       
+    }
+
+    .intro{
+        background-image: url(./IMages/layered-waves-haikei.svg);
+        background-size: cover;
+        color: black;
+        display: flex;
+        align-items: center;
+    }
+    #text{
+        width: 300px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+         
+    }
+}
+ 
+@media (min-width: 520px) {
+    .mobileNav{
+        display: none;
+    }
+}
+
+/* @keyframes intro {
+    0% {
+        transform: translateY(-20%);
+    }
+    50%{
+        transform: scale(50%)
+    }
+    80%{
+        transform: scale(150%);
+    }
+    
+} */

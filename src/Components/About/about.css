@@ -1,0 +1,16 @@
+*, *::after, *::before{
+ box-sizing: border-box;
+}
+
+#about{
+    display: grid;
+    min-height: 100vh;
+    background-color: rgb(38, 38, 38);
+    justify-items: center;
+}
+
+.bio{
+    margin-top: 5%;
+    width: 70%;
+    height: 50vh;
+} 
