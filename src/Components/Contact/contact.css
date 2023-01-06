@@ -1,20 +1,27 @@
-.form{
-    height: 100vh;
+#form{
+    height: 50vh;
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    background-color: rgb(163, 163, 163);
+    background-color: rgba(219, 217, 217, 0.5);
     flex-direction: column;
     align-items: center;
     text-align: center;
+    color: black;
     padding: 2em;
+    font-weight: bold;
 
 }
 
 .contact{
-    width: 50%;
-    padding: 1em;
+    width: 500px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 10px;
+    height: 100%;
+    padding: 2em;
+    margin:1em;
     display: flex; 
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    gap: 20px;;
 }

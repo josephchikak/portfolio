@@ -2,13 +2,15 @@
     box-sizing: border-box;
 }
 
-
+#music2{
+    scroll-margin-top: 50px;
+}
 .content{
     display:flex;
     width: 100%;
     align-items: center;
     flex-direction: column;
-    
+    background-color: rgb(60, 60, 60);
 }
 
 .landing{
@@ -16,7 +18,7 @@
     display: grid;
     justify-content: center;
     height: 100vh;
-    width: 100%;
+    width: 80%;
     background-image: url(../IMages/layered-waves-haikei.svg);
     background-attachment: fixed;
     background-position: center;
@@ -74,7 +76,6 @@
 }
 
 .songLink{
-    /* position: absolute; */
     bottom: 0;
     height: 2.5em;
     width: 100%;

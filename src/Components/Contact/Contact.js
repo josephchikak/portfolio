@@ -1,20 +1,41 @@
-import React from "react";
+import React, { useRef } from "react";
 import './contact.css';
-import { FormControl, Input, TextField } from '@mui/material';
+import {Button, Input, TextField } from '@mui/material';
+import SendIcon from '@mui/icons-material/Send';
+import emailjs from '@emailjs/browser';
+
 
 const Form = () =>{
+
+
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID , form.current, process.env.REACT_APP_EMAILJS_USER_ID)
+          .then((result) => {
+              console.log(result.text);
+              alert('Thank you for contacting me, I will respond to your message as soon as I can')
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
+    
+
     return(
-        <div className="form" >
-            <h2>shoot!</h2>
-        <div className="contact" >
-            <FormControl>
-            <Input label="Name" placeholder="Name" color="primary" margin="normal" focused />
-            <Input label="Email" color="primary" placeholder="Email"  focused />
-            <TextField label='Message' multiline='Default Value' margin="normal"/>
+        <div id="form" >
+            <h2>SHOOT!</h2>
+        <form className="contact"  ref={form} onSubmit={sendEmail}>
+            <Input label="Name" placeholder="Name" color="primary" margin="normal" focused name="user_name"/>
+            <Input label="Email" color="primary" placeholder="Email"  focused name="user_email"/>
+            <TextField sx={{width: '435px',}} label='Message' multiline={true} margin="normal" name="message"/>
+            <Button variant="contained" type="submit" endIcon={<SendIcon />}>
+                Send
+                </Button>
+        </form>
 
-
-            </FormControl>
-
+        <div id="contactInfo">
+            <p>email: josephchikak@gmail.com</p>
         </div>
         </div>
     )

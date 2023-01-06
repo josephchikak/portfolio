@@ -2,15 +2,24 @@
  box-sizing: border-box;
 }
 
+#me{
+    display: flex;
+    align-items: flex-start;
+    width: 80ch;
+    
+}
+
 #about{
+    scroll-margin-top: 57px;
     display: grid;
-    min-height: 100vh;
-    background-color: rgb(38, 38, 38);
+    height: 50vh;
+    background-color: rgb(60, 60, 60);
     justify-items: center;
 }
 
 .bio{
     margin-top: 5%;
-    width: 70%;
+    width: 50%;
     height: 50vh;
+    position: relative;
 } 
