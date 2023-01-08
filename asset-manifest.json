@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.23cf3e05.css",
+    "main.js": "/portfolio/static/js/main.09a99557.js",
+    "static/media/Screenshot 2022-11-19 at 09.34.27.png": "/portfolio/static/media/Screenshot 2022-11-19 at 09.34.27.03e5186406c1cf991892.png",
+    "static/media/face detector.png": "/portfolio/static/media/face detector.554752de622838430881.png",
+    "static/media/Furniture.png": "/portfolio/static/media/Furniture.a41e33a386d42f3a4108.png",
+    "static/media/drum machine.png": "/portfolio/static/media/drum machine.87824d719ea1a0a6ea04.png",
+    "static/media/markdown.png": "/portfolio/static/media/markdown.b0fcb0539bcdbcc45db4.png",
+    "static/media/song2.jpg": "/portfolio/static/media/song2.9c6a30e338a84156155c.jpg",
+    "static/media/song1.JPG": "/portfolio/static/media/song1.7cdae5a9598a9ef54379.JPG",
+    "static/media/clock.png": "/portfolio/static/media/clock.1073a29d10d872afbb52.png",
+    "static/media/song3.jpg": "/portfolio/static/media/song3.a354cd405894e8dc945e.jpg",
+    "static/media/IMG_4040.jpg": "/portfolio/static/media/IMG_4040.19437fa0fbbaa6caaf5e.jpg",
+    "static/media/song6.jpg": "/portfolio/static/media/song6.b2e5727011cf2a2e659e.jpg",
+    "static/media/song4.JPG": "/portfolio/static/media/song4.f67991ffa9dc2fe70a7a.JPG",
+    "static/media/song5.JPG": "/portfolio/static/media/song5.fd0df1a6cf25eea2902f.JPG",
+    "static/media/4691292_react native_react_icon.png": "/portfolio/static/media/4691292_react native_react_icon.8235160ef002df403ebd.png",
+    "static/media/1521995_spotify_connection_media_network_social_icon.png": "/portfolio/static/media/1521995_spotify_connection_media_network_social_icon.35f76af26113c5b65e0b.png",
+    "static/media/9035101_logo_nodejs_icon.png": "/portfolio/static/media/9035101_logo_nodejs_icon.e6d599b76e0e06e619bf.png",
+    "static/media/1314139_app_apple_display_itunes_music_icon.png": "/portfolio/static/media/1314139_app_apple_display_itunes_music_icon.916554f29fa4d8589339.png",
+    "static/media/layered-waves-haikei.svg": "/portfolio/static/media/layered-waves-haikei.f3c9d75228619bac187c.svg",
+    "index.html": "/portfolio/index.html",
+    "main.23cf3e05.css.map": "/portfolio/static/css/main.23cf3e05.css.map",
+    "main.09a99557.js.map": "/portfolio/static/js/main.09a99557.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23cf3e05.css",
+    "static/js/main.09a99557.js"
+  ]
+}
