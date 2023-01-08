@@ -19,8 +19,6 @@ const Home = ()=>{
   
     const { width } = useWindowDimensions();
    
-console.log(mobileMenu)
-
     useEffect(()=> {
    
                

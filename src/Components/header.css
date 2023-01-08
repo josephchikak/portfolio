@@ -193,7 +193,7 @@ font-size: 1.5rem;
 
 #contactMe{
     display:flex;
-    justify-content:end
+    justify-content:flex-end
 }
 
 #contactMeMobile{
@@ -230,7 +230,6 @@ font-size: 1.5rem;
 
     .mobileNav{
        background-color: white;
-       /* z-index: 999; */
     }
     .introduction{
         color: rgb(0, 0, 0);
