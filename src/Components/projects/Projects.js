@@ -6,7 +6,6 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import './projects.css';
-import calculator from './project images/calculator.png';
 import furniture from './project images/Furniture.png';
 import drum from './project images/drum machine.png';
 import faceDetector from './project images/face detector.png';

@@ -8,7 +8,6 @@ import Form from "./Contact/Contact";
 import Music from "./Music/Music";
 import { HashLink } from 'react-router-hash-link';
 import { gsap } from "gsap";
-import { Html } from "@mui/icons-material";
 import useWindowDimensions from "./useWindowDimensions";
 
 
