@@ -56,6 +56,8 @@ const Projects = () =>{
         </Typography>
         <Typography variant="body2" color="text.secondary">
           ZTM web developer course project. Here I learnt how to interact with an API and created a back end server for user sign in and sign up. Also created a database to store user data after sign up.
+          Test email: test@gmail.com
+          Test password: 123456
         </Typography>
       </CardContent>
       <CardActions>
@@ -116,12 +118,12 @@ const Projects = () =>{
           Quote Generator
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        
+        First introduction to working with an API.
         </Typography>
       </CardContent>
       <CardActions>
-      <a href='https://josephchikak.github.io/smart-brain-front-end-/' target="_blank" rel="noreferrer"> <Button size="small">demo </Button> </a>
-       <a href="https://github.com/josephchikak/smart-brain-front-end-" target="_blank" rel="noreferrer"> <Button size="small">code </Button> </a>
+      <a href='https://josephchikak.github.io/random-quote-generator/' target="_blank" rel="noreferrer"> <Button size="small">demo </Button> </a>
+       <a href="https://github.com/josephchikak/random-quote-generator" target="_blank" rel="noreferrer"> <Button size="small">code </Button> </a>
       </CardActions>
     </Card>
     <Card sx={{ maxWidth: '20rem', height: "27rem" }} className='card'>
@@ -136,8 +138,7 @@ const Projects = () =>{
           Markdown Previewer
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+         Created a Markdown converter using React and CSS for styling.
         </Typography>
       </CardContent>
       <CardActions>
