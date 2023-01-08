@@ -28,7 +28,7 @@ const Form = () =>{
         <form className="contact"  ref={form} onSubmit={sendEmail}>
             <Input label="Name" placeholder="Name" color="primary" margin="normal" focused name="user_name"/>
             <Input label="Email" color="primary" placeholder="Email"  focused name="user_email"/>
-            <TextField sx={{width: '435px',}} label='Message' multiline={true} margin="normal" name="message"/>
+            <TextField sx={{width: 'fitContent',}} label='Message' multiline={true} margin="normal" name="message"/>
             <Button variant="contained" type="submit" endIcon={<SendIcon />}>
                 Send
                 </Button>

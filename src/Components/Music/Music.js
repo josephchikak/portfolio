@@ -27,7 +27,7 @@ const Music = () =>{
     <div className='cover'>
   <div className="content"  >
     <div className="landing">
-    <h2 className="text-2xl font-bold" style={{textAlign:'center', padding:'2em', color:'white'}}>MUSIC</h2>
+    <h2 className="text-2xl font-bold" style={{textAlign:'center', padding:'2em', color:'white', }}>MUSIC</h2>
        
          <div className="songs">
           {songList.map((song,i) =>{

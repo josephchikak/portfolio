@@ -62,7 +62,7 @@
 .song{
     height: fit-content;
     width: fit-content;
-    width: 50%;
+    width: 60%;
     transition: all 1s ease-in-out;
     position: relative;
     margin:2em;
@@ -99,4 +99,32 @@ justify-content: center;
 }
 .songTitle:hover{
         display: none;
+}
+
+@media (width <= 600px){
+    .songs{
+    grid-template-columns: 1fr;
+    }
+ .landing{
+     height: 205vh;
+    }
+    .song{
+        width: 50%
+    }
+}
+
+@media  (width <= 1000px ) and (width > 600px){
+    .songs{
+        grid-template-columns: 1fr 1fr;
+
+        }
+          .landing{
+     height: 150vh;
+    }
+}
+
+@media (min-width: 600px){
+    .song{
+        width: 60%
+    }
 }

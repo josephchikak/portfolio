@@ -22,16 +22,15 @@ const Projects = () =>{
     return(
         <div id='projects'>
             <h2> PROJECTS</h2>
-
         <div id="project">
-    <Card sx={{ maxWidth: '20em', minHeight: "25rem" }} className='card'>
+    <Card sx={{ maxWidth: '20rem', minHeight: "27rem" }} className='card' >
       <CardMedia
         component="img"
         alt="green iguana"
         height="140"
         image={furniture}
       />
-      <CardContent>
+      <CardContent >
         <Typography gutterBottom variant="h5" component="div">
           Furniture Store
         </Typography>
@@ -40,32 +39,31 @@ const Projects = () =>{
         </Typography>
       </CardContent>
       <CardActions>
-       <a href='https://josephchikak.github.io/Furniture-Ecommerce/'> <Button size="small">demo </Button> </a>
-       <a href="https://github.com/josephchikak/Furniture-Ecommerce"> <Button size="small">code </Button> </a>
+       <a href='https://josephchikak.github.io/Furniture-Ecommerce/' target="_blank" rel="noreferrer"> <Button size="small">demo </Button> </a>
+       <a href="https://github.com/josephchikak/Furniture-Ecommerce" target="_blank" rel="noreferrer"> <Button size="small">code </Button> </a>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: '20rem',minHeight: "25rem" }} className='card'>
+    <Card sx={{ maxWidth: '20rem', height: "27rem" }} className='card' >
       <CardMedia
         component="img"
-        alt="green iguana"
+        alt="facce detector"
         height="140"
         image={faceDetector}
       />
-      <CardContent>
+      <CardContent >
         <Typography gutterBottom variant="h5" component="div">
           Face Detector
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          ZTM web developer course project. Here I learnt how to interact with an API and created a back end server for user sign in and sign up. Also created a database to store user data after sign up.
         </Typography>
       </CardContent>
       <CardActions>
-       <a href='https://josephchikak.github.io/smart-brain-front-end-/'> <Button size="small">demo </Button> </a>
-       <a href="https://github.com/josephchikak/smart-brain-front-end-"> <Button size="small">code </Button> </a>
+       <a href='https://josephchikak.github.io/smart-brain-front-end-/' target="_blank" rel="noreferrer"> <Button size="small">demo </Button> </a>
+       <a href="https://github.com/josephchikak/smart-brain-front-end-" target="_blank" rel="noreferrer"> <Button size="small">code </Button> </a>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: '20rem' ,minHeight: "25rem" }} className='card'>
+    <Card  sx={{ maxWidth: '20rem', height: "27rem" }} className='card'>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -82,11 +80,11 @@ const Projects = () =>{
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+      <a href='https://josephchikak.github.io/pomodoro-clock/' target="_blank" rel="noreferrer"> <Button size="small">demo </Button> </a>
+       <a href="https://github.com/josephchikak/pomodoro-clock" target="_blank" rel="noreferrer"> <Button size="small">code </Button> </a>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: '20rem',minHeight: "25rem" }} className='card'>
+    <Card  sx={{ maxWidth: '20rem', height: "27rem" }} className='card'>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -103,11 +101,11 @@ const Projects = () =>{
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+      <a href='https://josephchikak.github.io/drum-machine/' target="_blank" rel="noreferrer"> <Button size="small">demo </Button> </a>
+       <a href="https://github.com/josephchikak/drum-machine" target="_blank" rel="noreferrer"> <Button size="small">code </Button> </a>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: '20rem',minHeight: "25rem"  }} className='card'>
+    <Card  sx={{ maxWidth: '20rem', height: "27rem" }} className='card'>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -124,11 +122,11 @@ const Projects = () =>{
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+      <a href='https://josephchikak.github.io/smart-brain-front-end-/' target="_blank" rel="noreferrer"> <Button size="small">demo </Button> </a>
+       <a href="https://github.com/josephchikak/smart-brain-front-end-" target="_blank" rel="noreferrer"> <Button size="small">code </Button> </a>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: '20rem',minHeight: "25rem"  }} className='card'>
+    <Card sx={{ maxWidth: '20rem', height: "27rem" }} className='card'>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -145,8 +143,8 @@ const Projects = () =>{
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+      <a href='https://josephchikak.github.io/markdown-previewer/' target="_blank" rel="noreferrer"> <Button size="small">demo </Button> </a>
+       <a href="https://github.com/josephchikak/markdown-previewer" target="_blank" rel="noreferrer"> <Button size="small">code </Button> </a>
       </CardActions>
     </Card>
 

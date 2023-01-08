@@ -9,10 +9,10 @@
     width: 100vw;
     height: 100vh;
     position: relative;
+    padding-top: 10px
 }
 
 #project{
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
@@ -20,13 +20,19 @@
 }
 
 .card{
-    padding: 1em;
-    margin: 1em;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /* padding-top: 2rem; */
 }
 
 
 
- @media (width <= 1000px){
+
+
+ @media (width <= 1000px) and (width >700px){
      #project{
         grid-template-columns: 1fr 1fr;
      }
@@ -37,3 +43,12 @@
        padding-top: 10px;
      }
 } 
+
+@media(width < 700px){
+    #project{
+        grid-template-columns: 1fr;
+     }
+     #projects{
+        height: fit-content;
+     }
+}
