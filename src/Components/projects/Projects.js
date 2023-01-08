@@ -34,7 +34,8 @@ const Projects = () =>{
           Furniture Store
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Created a simple Ecommerce site from scratch, implementing routing, cart managment and stripe checkout
+          Created a simple Ecommerce site from scratch, implementing routing, cart managment and stripe checkout.
+          I used React, Tailwind CSS and some Material UI components to style my app.
         </Typography>
       </CardContent>
       <CardActions>
@@ -74,8 +75,8 @@ const Projects = () =>{
           Pomodoro Clock
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          Created a pomodoro clock, as a study project on react state handling and working with intervals.
+          Here I used some Material UI components and a CSS for styling.
         </Typography>
       </CardContent>
       <CardActions>
@@ -95,8 +96,7 @@ const Projects = () =>{
           Drum Machine
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          Created a drum machine as a study project for react following the given user stories. I used a mix of React, HTML and CSS. Also learnt how to use react hooks like the useEffect hook.
         </Typography>
       </CardContent>
       <CardActions>
@@ -116,8 +116,7 @@ const Projects = () =>{
           Quote Generator
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        
         </Typography>
       </CardContent>
       <CardActions>

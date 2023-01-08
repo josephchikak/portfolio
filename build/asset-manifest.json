@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.23cf3e05.css",
-    "main.js": "/portfolio/static/js/main.09a99557.js",
+    "main.css": "/portfolio/static/css/main.c7f409d3.css",
+    "main.js": "/portfolio/static/js/main.1535926b.js",
     "static/media/Screenshot 2022-11-19 at 09.34.27.png": "/portfolio/static/media/Screenshot 2022-11-19 at 09.34.27.03e5186406c1cf991892.png",
     "static/media/face detector.png": "/portfolio/static/media/face detector.554752de622838430881.png",
     "static/media/Furniture.png": "/portfolio/static/media/Furniture.a41e33a386d42f3a4108.png",
@@ -21,11 +21,11 @@
     "static/media/1314139_app_apple_display_itunes_music_icon.png": "/portfolio/static/media/1314139_app_apple_display_itunes_music_icon.916554f29fa4d8589339.png",
     "static/media/layered-waves-haikei.svg": "/portfolio/static/media/layered-waves-haikei.f3c9d75228619bac187c.svg",
     "index.html": "/portfolio/index.html",
-    "main.23cf3e05.css.map": "/portfolio/static/css/main.23cf3e05.css.map",
-    "main.09a99557.js.map": "/portfolio/static/js/main.09a99557.js.map"
+    "main.c7f409d3.css.map": "/portfolio/static/css/main.c7f409d3.css.map",
+    "main.1535926b.js.map": "/portfolio/static/js/main.1535926b.js.map"
   },
   "entrypoints": [
-    "static/css/main.23cf3e05.css",
-    "static/js/main.09a99557.js"
+    "static/css/main.c7f409d3.css",
+    "static/js/main.1535926b.js"
   ]
 }
