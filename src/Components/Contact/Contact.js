@@ -6,8 +6,6 @@ import emailjs from '@emailjs/browser';
 
 
 const Form = () =>{
-
-
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
@@ -26,9 +24,9 @@ const Form = () =>{
         <div id="form" >
             <h2>SHOOT!</h2>
         <form className="contact"  ref={form} onSubmit={sendEmail}>
-            <Input label="Name" placeholder="Name" color="primary" margin="normal" name="user_name"/>
+            <Input label="Name" placeholder="Name" color="primary" name="user_name"/>
             <Input label="Email" color="primary" placeholder="Email"  name="user_email"/>
-            <TextField sx={{width: 'fitContent',}} label='Message' multiline={true} margin="normal" name="message"/>
+            <TextField sx={{width: 'fitContent',}} label='Message' multiline={true}  name="message"/>
             <Button variant="contained" type="submit" endIcon={<SendIcon />}>
                 Send
                 </Button>

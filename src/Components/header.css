@@ -198,10 +198,10 @@ font-size: 1.5rem;
 
 #contactMeMobile{
     position: absolute;
-    top: 32vh;
+    top: 35vh;
     background-color: black;
     width: 100vw;
-    height: 10vh;
+    height: 5vh;
     display: block;
 
 font-size: 1.5rem;
@@ -227,21 +227,31 @@ font-size: 1.5rem;
     width: 100vw
     }
 
-
     .mobileNav{
        background-color: white;
     }
     .introduction{
         color: rgb(0, 0, 0);
+        font-size: 2rem;
+        padding:8px;
+       
+    }
+    #home{
+         background-image: url(./IMages/C33AEA4E-5F1D-4099-9E50-16DA1C637418_1_102_o.png);
+        background-size: cover; 
+    }
+    #text1{
+        display:none;
+        position: absolute;
+        text-align: center;
+        top: 10vh;
+        left: 22%;
        
     }
 
+
     .intro{
-        background-image: url(./IMages/layered-waves-haikei.svg);
-        background-size: cover;
-        color: black;
-        display: flex;
-        align-items: center;
+        visibility:hidden;
     }
     #text{
         width: 300px;
@@ -249,6 +259,12 @@ font-size: 1.5rem;
         display: flex;
         flex-direction: column;
          
+    }
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        height: 20vh;
     }
 }
  
@@ -258,6 +274,9 @@ font-size: 1.5rem;
     }
     .navigation, .img{
         display: flex;
+    }
+    #text1{
+        display: none;
     }
 }
 

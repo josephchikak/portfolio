@@ -5,6 +5,8 @@
 #music2{
     scroll-margin-top: 50px;
 }
+
+
 .content{
     display:flex;
     width: 100%;
@@ -27,10 +29,8 @@
 }
 
 .songs{
-    position: absolute;
-    top:10%;
     width: fit-content;
-    height: 70%;
+    height: fit-content;
     display: grid;
     place-items: center;
     grid-template-columns: repeat(3, auto);
@@ -104,9 +104,10 @@ justify-content: center;
 @media (width <= 600px){
     .songs{
     grid-template-columns: 1fr;
+    height: 100%;
     }
  .landing{
-     height: 205vh;
+     height: 100%;
     }
     .song{
         width: 50%
@@ -118,8 +119,8 @@ justify-content: center;
         grid-template-columns: 1fr 1fr;
 
         }
-          .landing{
-     height: 150vh;
+     .landing{
+     height: fit-content;
     }
 }
 

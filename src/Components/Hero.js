@@ -60,6 +60,11 @@ const nameChange = (name) =>{
     <div ref={comp} id='home'>
     
         <section className='hero'>
+        <div id='text1'>
+                <h2 style={{zIndex:2}} className=' introduction'> Hi, I'm <span className='text-3xl' style={{color: 'gray'}}>{name}</span> 
+                 </h2>
+               
+             </div>
             <div className='category animate-pulse'>
                 <div id='webdev' className='icons'>
                     <HashLink smooth to='#projects'>

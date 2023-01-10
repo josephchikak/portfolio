@@ -27,7 +27,7 @@ const About = ()=>{
                     </p>
                     <div className="flex justify-between p-4">
                         {skills.map((skill,i) =>{
-                        return <div className='w-24 text-center' key={skill}> <p>{names[i]}</p><img src={skill} alt={skill}/> </div>
+                        return <div className='w-24 text-center skill' key={skill}> <p>{names[i]}</p><img src={skill} alt={skill}/> </div>
                         })}
                     </div>
                     <hr/>
