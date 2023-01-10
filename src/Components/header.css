@@ -152,7 +152,7 @@ right: 0.5%;
 .mobileNavigationOpen{
 background-color: rgba(0, 0, 0, 0.8);
 width: 100vw;
-height: 40vh;
+height: 50vh;
 position: absolute;
 top: 6vh;
 transition: all 1.5s ease-in-out;
@@ -210,8 +210,8 @@ font-size: 1.5rem;
     .header{
         height: 7vh;
         display: flex;
-        flex-direction: row;
-        width: 100%;
+       
+        width: 100vw;
     }
     #contactMe{
         display: none;
