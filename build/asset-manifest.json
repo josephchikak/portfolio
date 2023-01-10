@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c7f409d3.css",
-    "main.js": "/portfolio/static/js/main.3218c4a9.js",
+    "main.css": "/portfolio/static/css/main.f3ad609e.css",
+    "main.js": "/portfolio/static/js/main.eaf2c47f.js",
     "static/media/Screenshot 2022-11-19 at 09.34.27.png": "/portfolio/static/media/Screenshot 2022-11-19 at 09.34.27.03e5186406c1cf991892.png",
     "static/media/face detector.png": "/portfolio/static/media/face detector.554752de622838430881.png",
     "static/media/Furniture.png": "/portfolio/static/media/Furniture.a41e33a386d42f3a4108.png",
     "static/media/drum machine.png": "/portfolio/static/media/drum machine.87824d719ea1a0a6ea04.png",
     "static/media/markdown.png": "/portfolio/static/media/markdown.b0fcb0539bcdbcc45db4.png",
     "static/media/song2.jpg": "/portfolio/static/media/song2.9c6a30e338a84156155c.jpg",
+    "static/media/C33AEA4E-5F1D-4099-9E50-16DA1C637418_1_102_o.png": "/portfolio/static/media/C33AEA4E-5F1D-4099-9E50-16DA1C637418_1_102_o.368ac26859bf7e35c693.png",
     "static/media/song1.JPG": "/portfolio/static/media/song1.7cdae5a9598a9ef54379.JPG",
     "static/media/clock.png": "/portfolio/static/media/clock.1073a29d10d872afbb52.png",
     "static/media/song3.jpg": "/portfolio/static/media/song3.a354cd405894e8dc945e.jpg",
@@ -21,11 +22,11 @@
     "static/media/1314139_app_apple_display_itunes_music_icon.png": "/portfolio/static/media/1314139_app_apple_display_itunes_music_icon.916554f29fa4d8589339.png",
     "static/media/layered-waves-haikei.svg": "/portfolio/static/media/layered-waves-haikei.f3c9d75228619bac187c.svg",
     "index.html": "/portfolio/index.html",
-    "main.c7f409d3.css.map": "/portfolio/static/css/main.c7f409d3.css.map",
-    "main.3218c4a9.js.map": "/portfolio/static/js/main.3218c4a9.js.map"
+    "main.f3ad609e.css.map": "/portfolio/static/css/main.f3ad609e.css.map",
+    "main.eaf2c47f.js.map": "/portfolio/static/js/main.eaf2c47f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7f409d3.css",
-    "static/js/main.3218c4a9.js"
+    "static/css/main.f3ad609e.css",
+    "static/js/main.eaf2c47f.js"
   ]
 }
