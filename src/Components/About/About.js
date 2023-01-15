@@ -5,6 +5,8 @@ import css from './Skills Icon /3994346_code_coding_css_html_programming_icon.pn
 import js from './Skills Icon /9035061_logo_javascript_icon.png';
 import react from './Skills Icon /4691292_react native_react_icon.png';
 import node from './Skills Icon /9035101_logo_nodejs_icon.png';
+import { Button } from "@mui/material";
+import FileDownloadIcon from '@mui/icons-material/FileDownload';
 
 const About = ()=>{
  const skills = [html,css,js,react,node];
@@ -18,7 +20,6 @@ const About = ()=>{
                     <p>
                         I am a web developer with a focus on building smooth and beautiful web applications. I graduated university with a degree in Aerospace engineering. I am also a music producer.
                         I love creating art, desigining and solving problems. </p>
-                        
                         <br/>
                         <hr/>
                     <p>
@@ -31,6 +32,8 @@ const About = ()=>{
                         })}
                     </div>
                     <hr/>
+                    <a href="https://drive.google.com/file/d/1-HZ2BdnP4i9I6hiJL44ss_qAPJr_f-N1/view?usp=sharing" target="_blank" rel="noreferrer"><Button endIcon={<FileDownloadIcon/>} variant='outlined' sx={{marginTop:'1em', color:'white'}}> RESUME</Button> </a>
+
 
                 </article>
 
