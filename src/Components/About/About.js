@@ -18,8 +18,8 @@ const About = ()=>{
                 <article className="text-white">
                     <h2 className='font-bold text-xl'>ABOUT</h2>
                     <p>
-                        I am a web developer with a focus on building smooth and beautiful web applications. I graduated university with a degree in Aerospace engineering. I am also a music producer.
-                        I love creating art, desigining and solving problems. </p>
+                        I am a web developer with a passion for building smooth, fast and beautiful web applications. I graduated university with a degree in Aerospace engineering but my I love creating art, designing and solving problems. I am also a music producer that loves to experiment on sounds and creating amazing listening experiences!
+                     </p>
                         <br/>
                         <hr/>
                     <p>

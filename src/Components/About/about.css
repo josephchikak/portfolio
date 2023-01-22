@@ -12,10 +12,11 @@
 #about{
     scroll-margin-top: 57px;
     display: flex;
-    height: 50vh;
+    height: fit-content;
     width: 100%;
     background-color: rgb(60, 60, 60);
     justify-content: center;
+    padding: 2rem;
 }
 
 .bio{
