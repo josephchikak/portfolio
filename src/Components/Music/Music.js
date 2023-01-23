@@ -26,9 +26,8 @@ const Music = () =>{
  <div id="music2">
     <div className='cover'>
   <div className="content"  >
-    <div className="landing">
-    <h2 className="text-2xl font-bold" style={{textAlign:'center', padding:'2em', color:'white', }}>MUSIC</h2>
-       
+   
+    <h2 className="text-xl font-bold" style={{textAlign:'center', padding:'1em', color:'black', }}>MUSIC</h2>
          <div className="songs">
           {songList.map((song,i) =>{
             return (<div className="song" key={i}> <img src={song} alt='coverArt'/> 
@@ -39,7 +38,7 @@ const Music = () =>{
             </div>)
           })}
         </div>
-      </div>   
+      
      </div>
     </div>
 

@@ -4,21 +4,26 @@
 
 #projects{
     scroll-margin-top: 55px;
-    background-color: rgba(219, 217, 217, 0.5);
+    background-color: rgb(21, 21, 21);
     display: grid;
     place-items: center;
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     position: relative;
-    padding-top: 10px
+    padding-top: 10px;
+    color: white;
+    padding: 2rem;
+
 }
 
 #project{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
-    padding: 1em;
-    height: fit-content;
+    /* padding: 2rem; */
+    margin:0;
+    /* height: 90vh; */
+    
 }
 
 .card{

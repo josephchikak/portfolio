@@ -15,7 +15,7 @@ const About = ()=>{
         <div className="abt"> 
            <main id="about">
             <section className="bio">
-                <article className="text-white">
+                <article className="text-black">
                     <h2 className='font-bold text-xl'>ABOUT</h2>
                     <p>
                         I am a web developer with a passion for building smooth, fast and beautiful web applications. I graduated university with a degree in Aerospace engineering but my I love creating art, designing and solving problems. I am also a music producer that loves to experiment on sounds and creating amazing listening experiences!
@@ -32,7 +32,7 @@ const About = ()=>{
                         })}
                     </div>
                     <hr/>
-                    <a href="https://drive.google.com/file/d/1-HZ2BdnP4i9I6hiJL44ss_qAPJr_f-N1/view?usp=sharing" target="_blank" rel="noreferrer"><Button endIcon={<FileDownloadIcon/>} variant='outlined' sx={{marginTop:'1em', color:'white'}}> RESUME</Button> </a>
+                    <a href="https://drive.google.com/file/d/1-HZ2BdnP4i9I6hiJL44ss_qAPJr_f-N1/view?usp=sharing" target="_blank" rel="noreferrer"><Button endIcon={<FileDownloadIcon/>} variant='outlined' sx={{marginTop:'1em', color:'black'}}> RESUME</Button> </a>
 
 
                 </article>

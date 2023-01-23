@@ -20,7 +20,7 @@ const Projects = () =>{
 
     return(
         <div id='projects'>
-            <h2> PROJECTS</h2>
+            <h2 style={{padding:'1rem'}}> PROJECTS</h2>
         <div id="project">
     <Card sx={{ maxWidth: '20rem', minHeight: "27rem" }} className='card' >
       <CardMedia
