@@ -24,8 +24,8 @@ const Music = () =>{
   
  return(
  <div id="music2">
-    <div className='cover'>
-  <div className="content"  >
+
+  <div className="content" >
    
     <h2 className="text-xl font-bold" style={{textAlign:'center', padding:'1em', color:'black', }}>MUSIC</h2>
          <div className="songs">
@@ -41,9 +41,6 @@ const Music = () =>{
       
      </div>
     </div>
-
- </div>
-  
 
  )
 

@@ -4,7 +4,6 @@
     display: flex;
     justify-content: flex-start;
     background-color: rgb(21, 21, 21);
-    /* background-color: rgba(219, 217, 217, 0.5); */
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -14,9 +13,8 @@
 }
 
 .contact{
-    width: 500px;
-    /* background-color: rgba(182, 182, 182, 0.515); */
-    background-image: url(../IMages/blob-scene-haikei.svg);
+    
+    background-color: rgba(182, 182, 182, 0.626);
     background-position: center center;
     border-radius: 10px;
     height: 100%;
@@ -33,13 +31,20 @@
   
 }
 
-@media (max-width: 400px){
-    .contact{
-        width:100%;
-    }
+@media (max-width: 700px){
+  .contact{
+   width: 90%
+  }
     #form{
         width:100%;
         height: fit-content;
         padding:1em;
     }
 }
+
+@media (min-width: 700px){
+    .contact{
+     width: 40%
+    }
+  }
+  

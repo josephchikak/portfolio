@@ -1,6 +1,6 @@
 import './header.css'
 import React from 'react';
-import { useState, useEffect, useRef, useLayoutEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import myPhoto from './IMages/IMG_4040.jpg';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

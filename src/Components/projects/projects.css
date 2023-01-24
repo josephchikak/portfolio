@@ -20,10 +20,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
-    /* padding: 2rem; */
-    margin:0;
-    /* height: 90vh; */
-    
+    width:100%;
+    margin:0;  
 }
 
 .card{

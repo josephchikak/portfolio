@@ -12,10 +12,10 @@ const About = ()=>{
  const skills = [html,css,js,react,node];
  const names =['HTML', 'CSS', 'JAVASCRIPT', 'REACT', 'NODEJS'];
     return(
-        <div className="abt"> 
+     
            <main id="about">
             <section className="bio">
-                <article className="text-black">
+                <article className="text-black me">
                     <h2 className='font-bold text-xl'>ABOUT</h2>
                     <p>
                         I am a web developer with a passion for building smooth, fast and beautiful web applications. I graduated university with a degree in Aerospace engineering but my I love creating art, designing and solving problems. I am also a music producer that loves to experiment on sounds and creating amazing listening experiences!
@@ -26,7 +26,7 @@ const About = ()=>{
                         <br/>
                          SKILLS <br/>
                     </p>
-                    <div className="flex justify-between p-4">
+                    <div className="skills flex justify-between p-4">
                         {skills.map((skill,i) =>{
                         return <div className='w-24 text-center skill' key={skill}> <p>{names[i]}</p><img src={skill} alt={skill}/> </div>
                         })}
@@ -39,7 +39,7 @@ const About = ()=>{
 
             </section>
            </main>
-        </div>
+   
     )
 
 }

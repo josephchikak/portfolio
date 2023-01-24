@@ -2,11 +2,8 @@
  box-sizing: border-box;
 }
 
-#me{
-    display: flex;
-    align-items: flex-start;
-    width: 90ch;
-
+.me{
+    width: 70%;
     
 }
 
@@ -17,26 +14,28 @@
     width: 100%;
     background-color: rgb(195, 194, 194);
     justify-content: center;
-    padding: 8rem;
+    padding: 3rem;
 }
 
 .bio{
-    
-    width: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     height: fit-content;
-    position: relative;
     color:black;
 
 } 
 
 @media (min-width: 700px){
-    .bio{
-        width: 100%
-    }
+  
 }
 @media (max-width: 700px){
-    .skill{
+    .skills{
         height: fit-content;
         padding:5px;
+    }
+    .me{
+        width: 100%
     }
 }
