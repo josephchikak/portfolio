@@ -38,7 +38,6 @@ const Music = () =>{
             </div>)
           })}
         </div>
-      
      </div>
     </div>
 
