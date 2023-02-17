@@ -8,10 +8,10 @@ import Typography from '@mui/material/Typography';
 import './projects.css';
 import furniture from './project images/Furniture.png';
 import drum from './project images/drum machine.png';
+import web3 from './project images/Screenshot 2023-02-17 at 14.52.46.png';
 import faceDetector from './project images/face detector.png';
 import clock from './project images/clock.png';
 import markdown from './project images/markdown.png';
-import quote from './project images/Screenshot 2022-11-19 at 09.34.27.png';
 
 
 
@@ -22,6 +22,29 @@ const Projects = () =>{
         <div id='projects'>
             <h2 style={{padding:'1rem'}}> PROJECTS</h2>
         <div id="project">
+
+        <Card sx={{ maxWidth: '20rem', minHeight: "27rem" }} className='card' >
+      <CardMedia
+        component="img"
+        alt="green iguana"
+        height="140"
+        image={web3}
+      />
+      <CardContent >
+        <Typography gutterBottom variant="h5" component="div">
+          web3 crowdFunding site
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          A web3 Crowdfundig funding app, using react js for client side, third web for handling web3 contract and peronalised by using redux for state managment.
+        </Typography>
+      </CardContent>
+      <CardActions>
+       <a href='https://teal-phoenix-80b9da.netlify.app/' target="_blank" rel="noreferrer"> <Button size="small">demo </Button> </a>
+       <a href="https://github.com/josephchikak/crowdFunding-web3" target="_blank" rel="noreferrer"> <Button size="small">code </Button> </a>
+      </CardActions>
+    </Card>
+
+
     <Card sx={{ maxWidth: '20rem', minHeight: "27rem" }} className='card' >
       <CardMedia
         component="img"
@@ -43,6 +66,7 @@ const Projects = () =>{
        <a href="https://github.com/josephchikak/Furniture-Ecommerce" target="_blank" rel="noreferrer"> <Button size="small">code </Button> </a>
       </CardActions>
     </Card>
+
     <Card sx={{ maxWidth: '20rem', height: "27rem" }} className='card' >
       <CardMedia
         component="img"
@@ -106,26 +130,8 @@ const Projects = () =>{
        <a href="https://github.com/josephchikak/drum-machine" target="_blank" rel="noreferrer"> <Button size="small">code </Button> </a>
       </CardActions>
     </Card>
-    <Card  sx={{ maxWidth: '20rem', height: "27rem" }} className='card'>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="140"
-        image={quote}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Quote Generator
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-        First introduction to working with an API.
-        </Typography>
-      </CardContent>
-      <CardActions>
-      <a href='https://josephchikak.github.io/random-quote-generator/' target="_blank" rel="noreferrer"> <Button size="small">demo </Button> </a>
-       <a href="https://github.com/josephchikak/random-quote-generator" target="_blank" rel="noreferrer"> <Button size="small">code </Button> </a>
-      </CardActions>
-    </Card>
+   
+   
     <Card sx={{ maxWidth: '20rem', height: "27rem" }} className='card'>
       <CardMedia
         component="img"
