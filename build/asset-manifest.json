@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.15b2b2ce.css",
-    "main.js": "/portfolio/static/js/main.037c42a1.js",
-    "static/media/Screenshot 2022-11-19 at 09.34.27.png": "/portfolio/static/media/Screenshot 2022-11-19 at 09.34.27.03e5186406c1cf991892.png",
+    "main.js": "/portfolio/static/js/main.3f2da634.js",
     "static/media/face detector.png": "/portfolio/static/media/face detector.554752de622838430881.png",
     "static/media/Furniture.png": "/portfolio/static/media/Furniture.a41e33a386d42f3a4108.png",
     "static/media/drum machine.png": "/portfolio/static/media/drum machine.87824d719ea1a0a6ea04.png",
@@ -13,6 +12,7 @@
     "static/media/song3.jpg": "/portfolio/static/media/song3.a354cd405894e8dc945e.jpg",
     "static/media/IMG_4040.jpg": "/portfolio/static/media/IMG_4040.19437fa0fbbaa6caaf5e.jpg",
     "static/media/song6.jpg": "/portfolio/static/media/song6.b2e5727011cf2a2e659e.jpg",
+    "static/media/Screenshot 2023-02-17 at 14.52.46.png": "/portfolio/static/media/Screenshot 2023-02-17 at 14.52.46.8886f3bffdec7e481c24.png",
     "static/media/song4.JPG": "/portfolio/static/media/song4.f67991ffa9dc2fe70a7a.JPG",
     "static/media/song5.JPG": "/portfolio/static/media/song5.fd0df1a6cf25eea2902f.JPG",
     "static/media/IMG_1923.PNG": "/portfolio/static/media/IMG_1923.5f924a8950d76243a807.PNG",
@@ -23,10 +23,10 @@
     "static/media/layered-waves-haikei.svg": "/portfolio/static/media/layered-waves-haikei.f3c9d75228619bac187c.svg",
     "index.html": "/portfolio/index.html",
     "main.15b2b2ce.css.map": "/portfolio/static/css/main.15b2b2ce.css.map",
-    "main.037c42a1.js.map": "/portfolio/static/js/main.037c42a1.js.map"
+    "main.3f2da634.js.map": "/portfolio/static/js/main.3f2da634.js.map"
   },
   "entrypoints": [
     "static/css/main.15b2b2ce.css",
-    "static/js/main.037c42a1.js"
+    "static/js/main.3f2da634.js"
   ]
 }
