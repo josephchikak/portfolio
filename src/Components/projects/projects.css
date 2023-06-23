@@ -20,16 +20,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
-    width:100%;
+    width:80%;
     margin:0;  
 }
 
 .card{
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+   font-family:'Laila', sans-serif;
+}
+
+#projects p{
+    color: white
 }
 
 

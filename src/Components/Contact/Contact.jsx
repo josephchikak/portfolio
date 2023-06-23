@@ -10,7 +10,7 @@ const Form = () =>{
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID , form.current, process.env.REACT_APP_EMAILJS_USER_ID)
+        emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID , form.current, import.meta.env.VITE_EMAILJS_USER_ID)
           .then((result) => {
               console.log(result.text);
               alert('Thank you for contacting me, I will respond to your message as soon as I can')
