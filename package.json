@@ -24,10 +24,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
-    "build": "react-scripts build",
+    "build": "vite build",
     "serve": "vite preview",
     "eject": "react-scripts eject"
   },
