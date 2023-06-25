@@ -2,11 +2,9 @@ import React from "react";
 
 import { gsap } from "gsap";
 import './music.css';
-import song1 from './songs/song1.jpg';
+import song1 from './songs/song1.JPG';
 import song2 from './songs/song2.jpg';
 import song3 from './songs/song3.jpg';
-// import song4 from './songs/song4.JPG';
-// import song5 from './songs/song5.JPG';
 import song6 from './songs/song6.jpg';
 import spotify from './icons/1521995_spotify_connection_media_network_social_icon.png';
 import apple from './icons/1314139_app_apple_display_itunes_music_icon.png';
