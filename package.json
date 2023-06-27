@@ -24,10 +24,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -54,7 +55,6 @@
     "babel-plugin-react-html-attrs": "^3.0.5",
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.23",
-    "tailwindcss": "^3.3.1",
-    "vite": "^2.3.2"
+    "tailwindcss": "^3.3.1"
   }
 }
