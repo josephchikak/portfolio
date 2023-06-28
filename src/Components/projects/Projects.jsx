@@ -11,7 +11,8 @@ import web3 from './project images/Screenshot 2023-02-17 at 14.52.46.png';
 import faceDetector from './project images/face detector.png';
 import clock from './project images/clock.png';
 import yacpif from './project images/yacpif.png';
-import weALT from './project images/weAlt.png'
+import weALT from './project images/weAlt.png';
+import school from './project images/school.mov';
 
 
 
@@ -162,6 +163,22 @@ const Projects = () =>{
        <a href="https://github.com/josephchikak/pomodoro-clock" target="_blank" rel="noreferrer"> <Button size="small">code </Button> </a>
       </CardActions>
        </Card>
+
+       <Card  sx={{ maxWidth: '20rem', height: "27rem", backgroundColor: 'rgb(21, 21, 21)' }} className='card'>
+      <video  src={school} loop autoPlay muted></video>
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div" color="white">
+          Royal Diamond 
+        </Typography>
+        <p>
+         Landing page design and development for a neighbouring school. 
+        </p>
+      </CardContent>
+     
+    
+       </Card>
+
+       
 
 
         </div>
