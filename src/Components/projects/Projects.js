@@ -48,7 +48,7 @@ const Projects = () =>{
         </p>
       </CardContent>
       <CardActions>
-       <a href='https://yacpif-1fqpzf9iq-josephchikak.vercel.app/' target="_blank" rel="noreferrer"> <Button size="small">demo </Button> </a>
+       <a href='https://yacpif.org' target="_blank" rel="noreferrer"> <Button size="small">demo </Button> </a>
        <a href="https://github.com/josephchikak/yacpif" target="_blank" rel="noreferrer"> <Button size="small">code </Button> </a>
       </CardActions>
     </Card>
